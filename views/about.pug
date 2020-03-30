@@ -1,0 +1,49 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Beck Pham
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack Engineer
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | During my tech career as a storage engineer, I'm working with a lot of SRE who doing software engineer works and I
+            | experienced firsthand via internal tools, projects, and applications that excited me very much.
+            | I'm starting to realise that I want to do what they do. That's why I start this SWE journey to become a fullstack
+            | engineer in the future so that I can make impact to the technology world.
+            
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li Html
+          li Css
+          li JavaScript
+          li Docker/Kubernetes
+          li Storage admin
+          li Cloud Services
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 123-4567-890
+          li fakeemail@gmail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/beck-pham-25a18b113/') LinkedIn
+        a.button.expanded(href='https://github.com/beck-pham?tab=repositories') GitHub
+        a.button.expanded(href='https://twitter.com/tcbeckham') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

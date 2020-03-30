@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "An app that generate a random motivation quote for your daily life",
+            "technologies": ["html", "css", "Javascript"],
+            "live_link": "https://beck-pham.github.io/Project1_random_quote_generator_TTH/",
+            "github_link": "https://github.com/beck-pham/Project1_random_quote_generator_TTH",
+            "image_urls": [
+                "/static/images/randomQuoteGenerate1.jpg",
+                "/static/images/randomQuoteGenerate2.jpg",
+                "/static/images/randomQuoteGenerate3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Creating a form that let you collect information from users including a payment process ",
+            "technologies": ["html", "css", "Jquery", "Javascript"],
+            "live_link": "https://beck-pham.github.io/Project3_Interactive_Form_TTH/",
+            "github_link": "https://github.com/beck-pham/Project3_Interactive_Form_TTH",
+            "image_urls": [
+                "/static/images/interactiveForm1.jpg",
+                "/static/images/interactiveForm2.jpg",
+                "/static/images/interactiveForm3.jpg"
+            ]
+        },       
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "A simple web guessing game ",
+            "technologies": ["html", "css", "Jquery", "Javascript"],
+            "live_link": "https://beck-pham.github.io/Project4_Phrase_Hunter_TTH/",
+            "github_link": "https://github.com/beck-pham/Project4_Phrase_Hunter_TTH",
+            "image_urls": [
+                "/static/images/phraseHunter1.jpg",
+                "/static/images/phraseHunter2.jpg",
+                "/static/images/phraseHunter3.jpg"
+                
+            ]
+        }
+    ]
+}
