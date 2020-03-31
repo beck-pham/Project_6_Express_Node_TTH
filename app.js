@@ -18,14 +18,22 @@ app.use('/', indexRoute);
 app.use('/about', aboutRoute);
 app.use('/project', projectRoute);
 
-
+//Error handling for non-exist pages
 app.use((req, res, next) => {
-    const err = new Error("Page not found");
+    const err = new Error("Page not found");ç
     err.status = 404;
+    console.log(err);
     next(err);
 });
 
-app.listen(8000, () => {
-    console.log('Application is running on localhost:8000');
+//Error middleware
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render("error");
+});
+
+app.listen(3000, () => {
+    console.log('Application is running on localhost:3000');
 })
 

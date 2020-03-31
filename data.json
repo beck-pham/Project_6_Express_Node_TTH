@@ -1,31 +1,48 @@
 {
     "projects": [
         {
-            "id": 1,
+            "id": 0,
             "project_name": "Random Quote Generator",
             "description": "An app that generate a random motivation quote for your daily life",
             "technologies": ["html", "css", "Javascript"],
             "live_link": "https://beck-pham.github.io/Project1_random_quote_generator_TTH/",
             "github_link": "https://github.com/beck-pham/Project1_random_quote_generator_TTH",
             "image_urls": [
+                "/static/images/randomQuoteGenerateIndex.jpg",
                 "/static/images/randomQuoteGenerate1.jpg",
                 "/static/images/randomQuoteGenerate2.jpg",
                 "/static/images/randomQuoteGenerate3.jpg"
             ]
         },
         {
-            "id": 2,
+            "id": 1,
             "project_name": "Interactive Form",
             "description": "Creating a form that let you collect information from users including a payment process ",
             "technologies": ["html", "css", "Jquery", "Javascript"],
             "live_link": "https://beck-pham.github.io/Project3_Interactive_Form_TTH/",
             "github_link": "https://github.com/beck-pham/Project3_Interactive_Form_TTH",
             "image_urls": [
+                "/static/images/interactiveFormIndex.jpg",
                 "/static/images/interactiveForm1.jpg",
                 "/static/images/interactiveForm2.jpg",
                 "/static/images/interactiveForm3.jpg"
             ]
         },       
+        {
+            "id": 2,
+            "project_name": "Pagination",
+            "description": "Creat a list of object with pagination function",
+            "technologies": ["html", "css", "DOM", "Javascript"],
+            "live_link": "https://beck-pham.github.io/Project3_Pagination_TTH/",
+            "github_link": "https://github.com/beck-pham/Project3_Pagination_TTH",
+            "image_urls": [
+                "/static/images/paginationIndex.jpg",
+                "/static/images/pagination1.jpg",
+                "/static/images/pagination2.jpg",
+                "/static/images/pagination3.jpg"
+                
+            ]
+        },
         {
             "id": 3,
             "project_name": "Phrase Hunter",
@@ -34,9 +51,25 @@
             "live_link": "https://beck-pham.github.io/Project4_Phrase_Hunter_TTH/",
             "github_link": "https://github.com/beck-pham/Project4_Phrase_Hunter_TTH",
             "image_urls": [
+                "/static/images/phraseHunterIndex.jpg",
                 "/static/images/phraseHunter1.jpg",
                 "/static/images/phraseHunter2.jpg",
                 "/static/images/phraseHunter3.jpg"
+                
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "API Public Request",
+            "description": "A fiction company directory contains 12 random employees that using API to pull their information from a database ",
+            "technologies": ["html", "css", "Jquery", "Javascript", "API","HTTP","AJAX"],
+            "live_link": "https://beck-pham.github.io/Project5_API-public-request_TTH/",
+            "github_link": "https://github.com/beck-pham/Project5_API-public-request_TTH",
+            "image_urls": [
+                "/static/images/apiRequestIndex.jpg",
+                "/static/images/apiRequest1.jpg",
+                "/static/images/apiRequest2.jpg",
+                "/static/images/apiRequest3.jpg"
                 
             ]
         }
