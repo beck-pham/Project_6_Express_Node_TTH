@@ -20,7 +20,7 @@ app.use('/project', projectRoute);
 
 //Error handling for non-exist pages
 app.use((req, res, next) => {
-    const err = new Error("Page not found");ç
+    const err = new Error("Page not found");
     err.status = 404;
     console.log(err);
     next(err);
